@@ -12,7 +12,8 @@
       if (stored && Array.isArray(stored.patients) && stored.patients.some(patient => patient.id === 'WM-0001')) window.wombsData = stored;
     } catch { /* Demo works in memory when browser storage is unavailable. */ }
     window.wombsData ||= structuredClone(window.wombsDemoSeed);
-    const requestedRole = new URLSearchParams(location.search).get('role') || storedRole;
+    const params = new URLSearchParams(location.search);
+    const requestedRole = params.get('role') || (params.has('book') ? 'Patient' : storedRole);
     window.wombsRole = ['Doctor', 'Patient', 'Secretary'].includes(requestedRole) ? requestedRole : 'Patient';
     window.wombsUser = {role: window.wombsRole, patient_id: 'WM-0001'};
     for (const file of ['app.js', 'chart.js', 'clinic-entry.js']) {
