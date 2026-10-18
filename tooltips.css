@@ -1,0 +1,2 @@
+.demo-tooltip{position:fixed;z-index:100000;box-sizing:border-box;width:max-content;max-width:min(290px,calc(100vw - 16px));padding:10px 13px;border:1px solid #42655b;border-radius:8px;background:#183d37;color:#fff;font:400 13px/1.5 Arial,sans-serif;letter-spacing:normal;text-transform:none;text-align:left;box-shadow:0 4px 16px #102d3526;pointer-events:none;overflow-wrap:anywhere}
+@media(prefers-reduced-motion:no-preference){.demo-tooltip{animation:demo-tooltip-in .12s ease-out}@keyframes demo-tooltip-in{from{opacity:0}to{opacity:1}}}

@@ -1,0 +1,448 @@
+{
+  "patients": [
+    {
+      "id": "WM-0001",
+      "name": "Sofia Mendoza",
+      "age": 29,
+      "dob": "1997-02-14",
+      "phone": "0917-000-0001",
+      "type": "Prenatal",
+      "allergy": "Penicillin — patient reported",
+      "history": "No previous surgery. Family history: hypertension.",
+      "ob": "G2 P1 · Previous term delivery in 2023",
+      "lmp": "2026-04-28",
+      "edd": "2027-02-02",
+      "blood": "O+",
+      "weeks": "24 weeks",
+      "emergency": "Marco Mendoza · 0917-000-0101"
+    },
+    {
+      "id": "WM-0002",
+      "name": "Camille Reyes",
+      "age": 26,
+      "dob": "2000-06-05",
+      "phone": "0917-000-0002",
+      "type": "Gynecology",
+      "allergy": "No known allergies reported",
+      "history": "Irregular menstrual cycles. No previous surgery.",
+      "ob": "G0 P0",
+      "blood": "A+",
+      "emergency": "Ana Reyes · 0917-000-0102"
+    },
+    {
+      "id": "WM-0003",
+      "name": "Isabel Santos",
+      "age": 34,
+      "dob": "1992-03-12",
+      "phone": "0917-000-0003",
+      "type": "Postpartum",
+      "allergy": "No known allergies reported",
+      "history": "Postpartum follow-up after delivery in September.",
+      "ob": "G3 P3",
+      "blood": "B+",
+      "emergency": "Paolo Santos · 0917-000-0103"
+    },
+    {
+      "id": "WM-0004",
+      "name": "Andrea Lim",
+      "age": 31,
+      "dob": "1995-07-20",
+      "phone": "0917-000-0004",
+      "type": "Prenatal",
+      "allergy": "Latex — patient reported",
+      "history": "First pregnancy. External scan available for review.",
+      "ob": "G1 P0",
+      "lmp": "2026-06-23",
+      "edd": "2027-03-30",
+      "weeks": "16 weeks",
+      "blood": "AB+",
+      "emergency": "Daniel Lim · 0917-000-0104"
+    },
+    {
+      "id": "WM-0005",
+      "name": "Patricia Cruz",
+      "age": 45,
+      "dob": "1981-08-18",
+      "phone": "0917-000-0005",
+      "type": "Gynecology",
+      "allergy": "No known allergies reported",
+      "history": "Routine screening follow-up.",
+      "ob": "G2 P2",
+      "blood": "O+",
+      "emergency": "Luis Cruz · 0917-000-0105"
+    },
+    {
+      "id": "WM-0006",
+      "name": "Bianca Torres",
+      "age": 28,
+      "dob": "1998-05-11",
+      "phone": "0917-000-0006",
+      "type": "Gynecology",
+      "allergy": "No known allergies reported",
+      "history": "Preconception consultation requested.",
+      "ob": "G0 P0",
+      "blood": "A+",
+      "emergency": "Mia Torres · 0917-000-0106"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "p": "WM-0001",
+      "date": "2026-10-13",
+      "time": "09:00",
+      "service": "Prenatal check-up",
+      "status": "Waiting"
+    },
+    {
+      "id": 2,
+      "p": "WM-0002",
+      "date": "2026-10-13",
+      "time": "09:30",
+      "service": "PCOS evaluation",
+      "status": "Consultation"
+    },
+    {
+      "id": 3,
+      "p": "WM-0003",
+      "date": "2026-10-13",
+      "time": "10:00",
+      "service": "Postpartum follow-up",
+      "status": "Confirmed"
+    },
+    {
+      "id": 4,
+      "p": "WM-0004",
+      "date": "2026-10-13",
+      "time": "10:30",
+      "service": "Fetal biometry",
+      "status": "Confirmed"
+    },
+    {
+      "id": 5,
+      "p": "WM-0005",
+      "date": "2026-10-13",
+      "time": "11:00",
+      "service": "Pap smear / cervical screening",
+      "status": "Pending"
+    },
+    {
+      "id": 6,
+      "p": "WM-0006",
+      "date": "2026-10-14",
+      "time": "09:00",
+      "service": "Preconception counseling",
+      "status": "Pending"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "p": "WM-0001",
+      "date": "2026-10-13",
+      "status": "Review",
+      "author": "Secretary · Mara",
+      "complaint": "Scheduled prenatal follow-up. Patient reports feeling well.",
+      "findings": "Intake: BP 110/70 mmHg, weight 61 kg. Doctor examination pending.",
+      "assessment": "For doctor assessment.",
+      "plan": "For doctor review and follow-up instructions."
+    },
+    {
+      "id": 2,
+      "p": "WM-0002",
+      "date": "2026-10-13",
+      "status": "Draft",
+      "author": "Dr. Elena Dela Cruz (demo)",
+      "complaint": "Irregular cycles over the past six months.",
+      "findings": "History review in progress.",
+      "assessment": "Pending evaluation.",
+      "plan": "Pending doctor decision."
+    },
+    {
+      "id": 3,
+      "p": "WM-0001",
+      "date": "2026-09-15",
+      "status": "Signed",
+      "author": "Dr. Elena Dela Cruz (demo)",
+      "signed": "2026-09-15 11:10",
+      "complaint": "Routine prenatal follow-up.",
+      "findings": "Historical fictional visit; examination recorded by demo doctor.",
+      "assessment": "Prenatal follow-up.",
+      "plan": "Return for scheduled follow-up. Instructions discussed."
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "p": "WM-0001",
+      "date": "2026-09-16",
+      "name": "CBC · external laboratory",
+      "kind": "Laboratory",
+      "status": "Released",
+      "finding": "Fictional report reviewed; see consultation note.",
+      "released": true
+    },
+    {
+      "id": 2,
+      "p": "WM-0004",
+      "date": "2026-10-13",
+      "name": "Fetal biometry",
+      "kind": "Ultrasound",
+      "status": "Awaiting review",
+      "finding": "Demo report draft. Measurements and interpretation pending doctor review.",
+      "released": false
+    },
+    {
+      "id": 3,
+      "p": "WM-0005",
+      "date": "2026-09-20",
+      "name": "Cervical screening",
+      "kind": "Laboratory",
+      "status": "Awaiting review",
+      "finding": "External report received for doctor review.",
+      "released": false
+    }
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "p": "WM-0001",
+      "date": "2026-09-15",
+      "kind": "Care instructions",
+      "title": "Prenatal follow-up instructions",
+      "body": "Attend your scheduled follow-up. Contact the clinic for clarification about your care plan.",
+      "released": true
+    },
+    {
+      "id": 2,
+      "p": "WM-0002",
+      "date": "2026-10-13",
+      "kind": "Prescription",
+      "title": "Prescription draft",
+      "body": "Medication details pending doctor review. This draft cannot be issued.",
+      "released": false
+    }
+  ],
+  "bills": [
+    {
+      "id": 1,
+      "p": "WM-0001",
+      "date": "2026-10-13",
+      "service": "Prenatal consultation",
+      "amount": 800,
+      "status": "Unpaid",
+      "method": ""
+    },
+    {
+      "id": 2,
+      "p": "WM-0004",
+      "date": "2026-10-13",
+      "service": "Ultrasound",
+      "amount": 1500,
+      "status": "Unpaid",
+      "method": ""
+    },
+    {
+      "id": 3,
+      "p": "WM-0003",
+      "date": "2026-10-06",
+      "service": "Postpartum consultation",
+      "amount": 800,
+      "status": "Paid",
+      "method": "GCash"
+    }
+  ],
+  "audit": [],
+  "pregnancies": [
+    {
+      "id": 701,
+      "p": "WM-0001",
+      "label": "Pregnancy 2 · 2026–2027",
+      "status": "Active",
+      "lmp": "2026-04-28",
+      "edd": "2027-02-02",
+      "dating": "LMP; confirm against dating scan",
+      "gravida": "2",
+      "para": "1",
+      "term": "1",
+      "preterm": "0",
+      "losses": "0",
+      "living": "1",
+      "outcome": "Ongoing",
+      "deliveryDate": "",
+      "deliveryMode": "",
+      "birthWeight": "",
+      "complications": "No complications recorded in fictional history.",
+      "risk": "Risk assessment pending doctor review."
+    },
+    {
+      "id": 702,
+      "p": "WM-0001",
+      "label": "Pregnancy 1 · 2023",
+      "status": "Completed",
+      "lmp": "",
+      "edd": "",
+      "dating": "Historical patient report",
+      "gravida": "1",
+      "para": "1",
+      "term": "1",
+      "preterm": "0",
+      "losses": "0",
+      "living": "1",
+      "outcome": "Live birth",
+      "deliveryDate": "2023-05-12",
+      "deliveryMode": "Vaginal delivery (patient reported)",
+      "birthWeight": "3100",
+      "complications": "None reported",
+      "risk": "Historical episode"
+    },
+    {
+      "id": 703,
+      "p": "WM-0004",
+      "label": "Pregnancy 1 · 2026–2027",
+      "status": "Active",
+      "lmp": "2026-06-23",
+      "edd": "2027-03-30",
+      "dating": "LMP — demo",
+      "gravida": "1",
+      "para": "0",
+      "term": "0",
+      "preterm": "0",
+      "losses": "0",
+      "living": "0",
+      "outcome": "Ongoing",
+      "risk": "For doctor assessment"
+    }
+  ],
+  "prenatal": [
+    {
+      "id": 801,
+      "p": "WM-0001",
+      "episode": "701",
+      "date": "2026-09-15",
+      "status": "Signed",
+      "author": "Dr. Elena Dela Cruz (demo)",
+      "signed": "2026-09-15",
+      "ga": "20 weeks 0 days",
+      "bp": "110/70",
+      "weight": "59.5",
+      "pulse": "78",
+      "temperature": "36.6",
+      "fundal": "20",
+      "fhr": "148",
+      "movement": "Reported",
+      "symptoms": "Routine follow-up; no new concerns reported.",
+      "exam": "Fictional examination recorded for interface demonstration.",
+      "assessment": "Prenatal follow-up — fictional record.",
+      "plan": "Review requested investigations at next visit.",
+      "nextDate": "2026-10-13"
+    },
+    {
+      "id": 802,
+      "p": "WM-0001",
+      "episode": "701",
+      "date": "2026-10-13",
+      "status": "Review",
+      "author": "Secretary · Mara",
+      "ga": "24 weeks 0 days",
+      "bp": "110/70",
+      "weight": "61",
+      "pulse": "80",
+      "temperature": "36.7",
+      "fundal": "",
+      "fhr": "",
+      "movement": "Reported",
+      "symptoms": "Patient reports feeling well. Intake transcribed for review.",
+      "exam": "Doctor examination pending.",
+      "assessment": "Pending doctor assessment",
+      "plan": "Pending doctor care plan",
+      "nextDate": ""
+    }
+  ],
+  "scans": [
+    {
+      "id": 901,
+      "p": "WM-0001",
+      "episode": "701",
+      "date": "2026-09-16",
+      "type": "Congenital anomaly scan",
+      "status": "Signed",
+      "released": true,
+      "author": "Dr. Elena Dela Cruz (demo)",
+      "signed": "2026-09-16",
+      "ga": "20 weeks 1 day",
+      "route": "Transabdominal",
+      "fetuses": "1",
+      "presentation": "Variable",
+      "placenta": "Posterior",
+      "fluid": "Recorded in external report",
+      "bpd": "47",
+      "hc": "174",
+      "ac": "150",
+      "fl": "33",
+      "efw": "350",
+      "fhr": "146",
+      "cervix": "Not recorded",
+      "impression": "Fictional sample report. No diagnostic interpretation intended.",
+      "recommendation": "Review with treating doctor."
+    },
+    {
+      "id": 902,
+      "p": "WM-0004",
+      "episode": "703",
+      "date": "2026-10-13",
+      "type": "Fetal biometry",
+      "status": "Review",
+      "released": false,
+      "author": "Secretary · Mara",
+      "ga": "16 weeks",
+      "route": "Transabdominal",
+      "fetuses": "1",
+      "impression": "External report transcribed; interpretation pending doctor review.",
+      "recommendation": "Pending review"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": 1001,
+      "p": "WM-0001",
+      "date": "2026-10-13",
+      "status": "Draft",
+      "author": "Secretary · Mara",
+      "medication": "Demo medication — doctor to specify",
+      "strength": "",
+      "dose": "",
+      "route": "",
+      "frequency": "",
+      "duration": "",
+      "quantity": "",
+      "instructions": "Fictional draft only; not valid for dispensing."
+    }
+  ],
+  "followups": [
+    {
+      "id": 1101,
+      "p": "WM-0001",
+      "date": "2026-10-13",
+      "due": "2026-10-27",
+      "reason": "Prenatal follow-up and investigation review",
+      "instructions": "Bring available investigation reports.",
+      "status": "Planned",
+      "author": "Dr. Elena Dela Cruz (demo)",
+      "released": true,
+      "appointmentId": ""
+    },
+    {
+      "id": 1102,
+      "p": "WM-0002",
+      "date": "2026-10-13",
+      "due": "2026-10-20",
+      "reason": "Review consultation and available results",
+      "instructions": "Doctor to confirm follow-up instructions.",
+      "status": "Planned",
+      "author": "Secretary · Mara",
+      "released": false,
+      "appointmentId": ""
+    }
+  ]
+}
